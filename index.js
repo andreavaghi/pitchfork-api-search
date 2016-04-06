@@ -1,18 +1,15 @@
 var axios = require('axios');
 
-var ROOT_URL = 'https://www.googleapis.com/youtube/v3/search';
+var ROOT_URL = 'http://pitchfork.com/api/v1/search/_ac/';
 
 module.exports = function (options, callback) {
   var params = {
-    part: 'snippet',
-    key: options.key,
-    q: options.term,
-    type: 'video'
+    query: options.query
   };
 
   axios.get(ROOT_URL, { params: params })
     .then(function(response) {
-      if (callback) { callback(response.data.items); }
+      if (callback) { callback(response.data); }
     })
     .catch(function(error) {
       console.error(error);
