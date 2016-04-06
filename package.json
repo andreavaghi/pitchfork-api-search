@@ -1,0 +1,19 @@
+{
+  "name": "pitchfork-api-search",
+  "version": "0.0.0",
+  "description": "Search in pitchfork database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "pitchfork",
+    "search",
+    "api"
+  ],
+  "author": "Andrea Vaghi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.9.1"
+  }
+}
