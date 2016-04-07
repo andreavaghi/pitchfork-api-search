@@ -1,6 +1,7 @@
 ## Pitchfork API Search
+NodeJS client to search [Pitchfork](http://pitchfork.com) database for artists and reviews
 
-*Beware: Pitchfork has no official API, this module is based on the endpoints available through reverse engineering of their new React website*
+*Be aware that Pitchfork has no official API and this module is based on the endpoints available through reverse engineering of their new React website. It's not guaranteed to stay available for free or to be stable*
 
 To use Pitchfork API Search, first include it in your NodeJS app:
 
